@@ -130,7 +130,7 @@ p {
     }
 
     .nome-animado {
-        margin-left: 0;
-        flex-direction: column;
+        margin-left: 100px;
     }
 }
+
