@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: "Open Sans",sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-style: normal;
     background-color: #000000e7;
     color: white;
@@ -25,6 +25,12 @@ body {
     margin-top: 9%;
     width: 9rem;
     border-radius: 50%;
+}
+
+.foto:hover {
+    opacity: 0.3;
+    transition: 0.5s;
+    font-size: 7rem;
 }
 
 h1 {
@@ -76,14 +82,55 @@ p {
     font-size: 20px;
     color: rgb(255, 255, 255);
 }
-.maozinha{
+
+.maozinha {
     width: 40px;
     height: 40px;
 }
 
-.nome-animado{
+.nome-animado {
     align-items: center;
     text-align: center;
-    margin-left:120px;
+    margin-left: 120px;
     display: flex;
+}
+
+/* Responsividade para telas pequenas */
+@media (max-width: 600px) {
+    .divmaior {
+        width: 80%;
+        margin-top: 10%;
+        padding: 15px;
+    }
+
+    .foto {
+        width: 7rem;
+    }
+
+
+    h1 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    .menu {
+        padding: 0px 10px 15px 10px;
+    }
+
+    .menu-item span {
+        font-size: 16px;
+    }
+
+    .maozinha {
+        width: 30px;
+        height: 30px;
+    }
+
+    .nome-animado {
+        margin-left: 0;
+        flex-direction: column;
+    }
 }
