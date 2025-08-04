@@ -23,8 +23,9 @@ body {
 
 .foto {
     margin-top: 9%;
-    width: 9rem;
-    border-radius: 60%;
+    width: 8rem;
+    border-radius: 50%;
+    height: 8rem;
 }
 
 .foto:hover {
@@ -134,4 +135,5 @@ p {
         margin-left: 100px;
     }
 }
+
 
